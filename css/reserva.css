@@ -1,0 +1,18 @@
+@media (max-width:360px){
+    .head{
+        display: none;
+        flex-direction: row;
+    }
+
+
+    .img-arbol{
+        width: 50%;
+    }
+
+    .form-personales{
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+}
