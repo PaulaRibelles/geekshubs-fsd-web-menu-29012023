@@ -9,65 +9,50 @@
     rel="stylesheet" 
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" 
     crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <link rel="shortcut icon" href="../img/mini-png.png" type="image/x-icon">
 </head>
 <body>
     <!-- Header -->
-    <header class="header">
-        <div class="logo">
-            <img src="../img/Shiteru.png" alt="logo">
+    <nav class="navbar bg-body-tertiary fixed-top" style="background-color: transparent">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">
+            <img src="../img/Sakura2.png" alt="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">SAKURA</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../pages/carta.html">Carta</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../pages/contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../pages/carta.html">Reserva</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled">Galeria</a>
+                </li>
+            </div>
         </div>
-        <nav>
-            <ul class="nav-links">
-                <li><a href="./reserva.html">Reserva</a></li>
-                <li><a href="./carta.html">Carta</a></li>
-                <li><a href="./galeria.html">Galeria</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
+        </div>
+    </nav>
 
     <!-- Imagen de cerezo -->
-    <div class="img-arbol">
+    <!-- <div class="img-arbol">
         <img src="../img/cerezo2.png" alt="arbol-cerezo">
-    </div>
+    </div> -->
 
     <!-- Galeria -->
-    <div class="container">
-        <div class="row">
-        <!-- Card de los platos -->
-            <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img src="../img/plato1.jpg" class="card-img-carta" alt="platos">
-                    <div class="card-body">
-                        <h5 class="card-title">Nuestros platos</h5>
-                        <p class="card-text">Mira algunos de los platos de nuestro restaurante. Alerta ¡se te puede hacer la boca agua!</p>
-                    </div>
-                </div>
-            </div>
-            <!-- Card del cocinero -->
-            <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img src="../img/manos.jpg" class="card-img-cocina" alt="cocina">
-                    <div class="card-body">
-                        <h5 class="card-title">Los cocineros</h5>
-                        <p class="card-text">Nuestros chefs preparan cada plato con mucha dedicación y es-mero. También con salmón, atún, pulpo...</p>
-                    </div>
-                </div>
-            </div>
-        <!-- Card del restaurante -->
-            <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img src="../img/restaurant.jpg" class="card-img-restaurante" alt="restaurante">
-                    <div class="card-body">
-                        <h5 class="card-title">Restaurante</h5>
-                        <p class="card-text">Te presentamos nuestro comedor para que cuando vengas ¡te sientas como en casa!</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
 </body>
