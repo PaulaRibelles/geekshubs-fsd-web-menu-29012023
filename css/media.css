@@ -4,6 +4,14 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
+        position: fixed;
+        padding: 40px;
     }
+
+    .container{
+        display: block;
+        padding: 40px;
+    }
+
 }
 
