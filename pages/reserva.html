@@ -17,20 +17,38 @@
     <link rel="shortcut icon" href="../img/mini-png.png" type="image/x-icon">
 </head>
 <body>
-    <!-- Head -->
-    <header class="header">
-        <div class="logo">
-            <img src="../img/Shiteru.png" alt="logo">
+    <!-- Header -->
+    <nav class="navbar bg-body-tertiary fixed-top" style="background-color: transparent">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">
+            <img src="../img/Sakura2.png" alt="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">SAKURA</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../pages/carta.html">Carta</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../pages/contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../pages/galeria.html">Galeria</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled">Reserva</a>
+                </li>
+            </div>
         </div>
-        <nav>
-            <ul class="nav-links">
-                <li><a href="./reserva.html">Reserva</a></li>
-                <li><a href="./menu.html">Carta</a></li>
-                <li><a href="./galeria.html">Galeria</a></li>
-                <!-- <li><a href="./contacto.html">Contacto</a></li> -->
-            </ul>
-        </nav>
-    </header>
+        </div>
+    </nav>
 
     <!-- Imagen de cerezo -->
     <div class="img-arbol">

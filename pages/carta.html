@@ -16,20 +16,38 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <header class="header">
-        <div class="logo">
-            <img src="../img/Shiteru.png" alt="logo">
+    <!-- Header -->
+    <nav class="navbar bg-body-tertiary fixed-top" style="background-color: transparent">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">
+            <img src="../img/Sakura2.png" alt="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">SAKURA</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../pages/galeria.html">Galeria</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../pages/contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../pages/reserva.html">Reserva</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled">Carta</a>
+                </li>
+            </div>
         </div>
-        <nav>
-            <ul class="nav-links">
-                <li><a href="./reserva.html">Reserva</a></li>
-                <li><a href="#">Carta</a></li>
-                <li><a href="./galeria.html">Galeria</a></li>
-                <!-- <li><a href="./contacto.html">Contacto</a></li> -->
-            </ul>
-        </nav>
-    </header>
-
+        </div>
+    </nav>
     <!-- Imagen de cerezo -->
         <div class="img-arbol">
             <img src="../img/cerezo2.png" alt="arbol-cerezo">
@@ -39,17 +57,17 @@
     <!-- Contenedor Entrantes -->
         <div class="entrantes">
             <h2>Entrantes</h2>
-                <p>TAKOYAKI</p><p>Bolita de pulpo y salsa.</p>
-                <p>CHA GIÓ HAI SAI</p><p>Rollito de marisco.</p>
-                <p>HARUMAKI</p><p>Rollito con verduras y carne.</p>
-                <p>EBI KIMONO</p><p>Gambas.</p>
+                <p>TAKOYAKI 9.70€</p><p>Bolita de pulpo y salsa.</p>
+                <p>CHA GIÓ HAI SAI 7.25€</p><p>Rollito de marisco.</p>
+                <p>HARUMAKI 6.50€</p><p>Rollito con verduras y carne.</p>
+                <p>EBI KIMONO 6.00€</p><p>Gambas.</p>
         </div>
     <!-- Contenedor ensaladas -->
         <div class="ensaladas">
             <h2>Ensaladas</h2>
-                <p>WAKAME ABOKADO</p><p>Variedad de lechuga con alga y aguacate.<p>6.80€</p>
-                <p>SHAKE ABOKADO</p><p>Variado de lechugas con salmón y aguacate con salsa yuzu.</p><p>7.80€</p>
-                <p>MAGURO ABOKADO</p><p>Ensalada de atún y aguacate con salsa okinawa.</p><p>8.80€</p>
+                <p>WAKAME ABOKADO 6.80€</p><p>Variedad de lechuga con alga y aguacate.
+                <p>SHAKE ABOKADO 7.80€</p><p>Variado de lechugas con salmón y aguacate con salsa yuzu.</p>
+                <p>MAGURO ABOKADO 8.80€</p><p>Ensalada de atún y aguacate con salsa okinawa.</p>
         </div>
     <!-- Contenedor nigiri  -->
         <div class="nigiri">
