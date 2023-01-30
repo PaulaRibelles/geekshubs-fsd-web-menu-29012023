@@ -1,5 +1,7 @@
-
-/* Header */
+body{
+    background-image: url(../img/cerezo2.png);
+    background-repeat: no-repeat;
+}
 
 *{
     box-sizing: border-box;
@@ -9,8 +11,6 @@
     font-size: 22px;
 }
 
-
-/* Main */
 
 .container{
     justify-content: center;
