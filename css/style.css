@@ -3,15 +3,12 @@
 
 *{
     box-sizing: border-box;
-    margin: 0;
-    padding-left: 0;
+    /* margin: 0;
+    padding-left: 0; */
     font-family: sans-serif;
     font-size: 22px;
 }
 
-.navbar{
-    background-color: transparent;
-}
 
 /* Main */
 
@@ -19,60 +16,15 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 800px;
-    /* background-color: aquamarine; */
-    justify-content: space-around;
+    height: 900px;
+    margin-top: 150px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    align-items: center;
     padding: 40px;
 }
 
-/* Footer */
 
-.footer{
-    /* background-color: transparent; */
-    background-color: rgb(250, 230, 233);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 85px;
-    padding: 5px 10%;
-}
 
-.pie-pagina{
-    width: 100%;
-}
 
-.pie-pagina grupo-redes{
-    width: 100%;
-    max-width: 1200px;
-    margin: auto;
 
-} 
-
-/* .footer{
-    background-color: #0e0e0e;
-    width: 100%;
-    height: 55px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 5px 10%;
-}
-
-.footer .footer-links{
-    list-style: none;
-}
-
-.footer .footer-links img{
-    width: 30px;
-    height: 30px;
-    flex-direction: row;
-}
-
-.header .footer-links li{
-    display: inline-block;
-    padding: 0 22px;
-}
-
-.header .footer-links:hover{
-    transform: scale(1.1);
-} */
