@@ -17,45 +17,51 @@
     <!-- Header -->
     <nav class="navbar bg-body-tertiary fixed-top">
         <div class="container-fluid" style="background-color: #f26e5c">
-        <a class="navbar-brand" href="../index.html">
-            <img src="../img/Sakura2.png" alt="logo">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-            <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">SAKURA</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            <!-- Logotipo -->
+            <a class="navbar-brand" href="../index.html">
+                <img src="../img/Sakura2.png" alt="logo">
+            </a>
+            <!-- navbar button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- button options -->
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">SAKURA</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../pages/carta.html">Carta</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../pages/reserva.html">Reserva</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link disabled">Galeria</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div class="offcanvas-body">
-            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../pages/carta.html">Carta</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="../pages/reserva.html">Reserva</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled">Galeria</a>
-                </li>
-            </div>
-        </div>
         </div>
     </nav>
 
-    <!-- Galeria -->
+    <!-- Main -->
     <div class="container">
         <div class="row row-cols-1 row-cols-md-3 g-4">
+            <!-- "Los platos" -->
             <div class="col">
                 <div class="card h-100">
-                <img src="../img/plato1.jpg" class="card-img-top" alt="plato">
+                    <img src="../img/plato1.jpg" class="card-img-top" alt="plato">
                 <div class="card-body">
                     <h5 class="card-title">Los platos</h5>
                     <p class="card-text">Mira algunos de nuestros platos. Alerta ¡se te puede hacer la boca agua!</p>
                 </div>
                 </div>
             </div>
+            <!-- "El restaurante" -->
             <div class="col">
                 <div class="card h-100">
                 <img src="../img/restaurant.jpg" class="card-img-top" alt="restaurant">
@@ -65,6 +71,7 @@
                 </div>
                 </div>
             </div>
+            <!-- Los cocineros -->
             <div class="col">
                 <div class="card h-100">
                 <img src="../img/manos.jpg" class="card-img-top" alt="cocineros">
@@ -74,6 +81,7 @@
                 </div>
                 </div>
             </div>
+            <!-- Los combos -->
             <div class="col">
                 <div class="card h-100">
                     <img src="../img/combo.jpg" class="card-img-top" alt="combo">

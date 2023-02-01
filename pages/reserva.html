@@ -19,38 +19,41 @@
 <body>
     <!-- Header -->
     <nav class="navbar bg-body-tertiary fixed-top">
+
         <div class="container-fluid" style="background-color: #f26e5c">
-        <a class="navbar-brand" href="../index.html">
-            <img src="../img/Sakura2.png" alt="logo">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-            <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">SAKURA</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body">
-            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../pages/carta.html">Carta</a>
-                </li>
-                <!-- <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="../pages/contacto.html">Contacto</a>
-                </li> -->
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="../pages/galeria.html">Galeria</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled">Reserva</a>
-                </li>
-            </div>
-        </div>
+        <!-- Logotipo -->
+            <a class="navbar-brand" href="../index.html">
+                <img src="../img/Sakura2.png" alt="logo">
+            </a>
+            <!-- navbar button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- button options -->
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">SAKURA</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <!-- Links -->
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../pages/carta.html">Carta</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../pages/galeria.html">Galeria</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled">Reserva</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
         </div>
     </nav>
 
-    <!-- Datos personales -->
+    <!-- Personal form -->
     <div class="container">
         <div class="Form-personales">
             <div class="datos-personales">
@@ -74,12 +77,12 @@
                     </div>
             </div>
         </div>
-            <!-- Datos reserva -->
-                <h5>DATOS DE LA RESERVA</h5>
+            <!-- Form to book -->
+            <h5>DATOS DE LA RESERVA</h5>
                 <div class="form-reserva">
                     <div class="form-group pt-1 mb-3">
                         <div for="reservation">Fecha de la reserva:</div>
-                        <input type="date" class="form-control" id="reservation">
+                            <input type="date" class="form-control" id="reservation">
                     </div>
                     <button type="button" class="btn btn-secondary">Reservar</button>
                 </div>
